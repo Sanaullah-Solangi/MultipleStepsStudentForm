@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form3</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .headings a {
+        background-color: lightgreen;
+      }
+      a:nth-child(3) {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="first-form">
+      <div class="headings">
+        <a href="index.html">Step 1: Account</a>
+        <a href="form2.html">Step 2: Personal Details</a>
+        <a href="form3.html">Step 3: Your Review</a>
+      </div>
+      <fieldset>
+        <legend>Your Review:</legend>
+        <form action="">
+          <span>How did you hear about us?</span>
+          <select name="aboutusSelection" id="">
+            <option value="">select your option</option>
+            <option value="">Friends</option>
+            <option value="">Family</option>
+            <option value="">social Media</option>
+          </select>
+          <p>Would you visit again?</p>
+          <input type="radio" checked name="userChoice" value="Yes" /><span
+            >Yes</span
+          >
+          <input type="radio" name="userChoice" value="No" /><span>No</span>
+          <input type="radio" name="userChoice" value="Maybe" /><span
+            >Maybe</span
+          >
+          <p>Comments:</p>
+          <textarea
+            name="comments"
+            id=""
+            cols="60"
+            rows="7"
+            placeholder="Enter your comments her"
+          ></textarea>
+          <p>Documents:</p>
+          <input type="file" name="file" /><br />
+          <input type="checkbox" checked name="checkbox" /> Sign me up for email
+          updates
+          <div class="btns">
+            <a href="./form2.html"
+              ><img src="./Images/back.png" alt="This is a button to go back"
+            /></a>
+            <button type="submit">
+              <img
+                src="./Images/submit.png"
+                alt="This is a button submit the form"
+              />
+            </button>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

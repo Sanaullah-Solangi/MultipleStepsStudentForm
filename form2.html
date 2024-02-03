@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form2</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .headings a {
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+      .headings a:nth-child(1) {
+        background-color: lightgreen;
+      }
+      .headings a:nth-child(2) {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-form">
+      <div class="headings">
+        <a href="index.html">Step 1: Account</a>
+        <a href="form2.html">Step 2: Personal Details</a>
+        <a href="form3.html">Step 3: Your Review</a>
+      </div>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <form action="">
+          <p>First Name:</p>
+          <input
+            type="text"
+            name="userFirstName"
+            placeholder="Enter Fisrt Name"
+          />
+          <p>Last Name:</p>
+          <input
+            type="text"
+            name="userPassword"
+            placeholder="Enter Last Name"
+          />
+          <p>CNIC:</p>
+
+          <div class="nic">
+            <input type="number" name="nic1" />
+            <input type="number" name="nic2" />
+            <input type="number" name="nic3" />
+            <input type="number" name="nic4" />
+            <input type="number" name="nic5" />
+            <span>-</span>
+            <input type="number" name="nic6" />
+            <input type="number" name="nic7" />
+            <input type="number" name="nic8" />
+            <input type="number" name="nic9" />
+            <input type="number" name="nic10" />
+            <input type="number" name="nic11" />
+            <input type="number" name="nic12" />
+            <span>-</span>
+            <input type="number" name="nic13" />
+          </div>
+          <p>Social Link:</p>
+          <input
+            type="text"
+            name="MediaLink"
+            placeholder="Enter Facebokk/LinkedIn profile link"
+          />
+        </form>
+        <div class="btns">
+          <a href="./index.html"
+            ><img src="./Images/back.png" alt="This is a button to go back"
+          /></a>
+          <a href="./form3.html"
+            ><img
+              src="./Images/next.png"
+              alt="This is a button to go next page"
+          /></a>
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+
+.headings {
+  display: flex;
+  border: 1px solid red;
+  width: 70%;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+a {
+  width: 100%;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.first-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem 0px;
+}
+
+fieldset {
+  padding: 3rem 2rem 1rem;
+  font-size: 2rem;
+  width: 70%;
+  margin-top: 2rem;
+  border: 2px solid black;
+}
+input {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}
+textarea {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"] {
+  width: auto;
+  margin-right: 1rem;
+}
+.nic {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+}
+
+button {
+  border: none;
+  width: 100%;
+}
+
+.btns {
+  display: flex;
+  width: 40%;
+}
+
+.btns img {
+  width: 100%;
+}
+
+@media (width <= 850px) {
+  fieldset,
+  .headings {
+    width: 95%;
+  }
+
+  html {
+    font-size: 52.5%;
+  }
+
+  a,
+  p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (width <= 660px) {
+  .btns {
+    width: 60%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
+
+@media (width <= 490px) {
+  .nic {
+    width: 100%;
+    gap: 0.5rem;
+  }
+}
+
+@media (width <= 450px) {
+  .btns {
+    width: 70%;
+  }
+}
+
+@media (width <= 330px) {
+  .btns {
+    width: 80%;
+  }
+}
